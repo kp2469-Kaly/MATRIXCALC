@@ -32,18 +32,16 @@ Enter augmented matrix row by row:
 -3 -1 2 -11
 -2 1 2 -3
 Solution:  [2.0, 3.0, -1.0]
-
+```
 
 ## Project Structure
 
-```
 MATRIXCALC
-│
+
 ├── main.py             
 ├── matrixCalc.cpp      
 ├── README.md            
 └── REPORT.md            
-```
 
 ## How It Works
 
@@ -52,6 +50,5 @@ MATRIXCALC
 3. C++ constructs a `Matrix` object and performs Gaussian elimination to solve the system.
 4. C++ returns the solution vector back to Python as a dynamically allocated array.
 5. Python reads and prints the results** to the user.
-
 
 This project fulfills the Final Project Requirements for Principles of Programming Languages.
